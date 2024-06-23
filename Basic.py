@@ -48,4 +48,8 @@ else:
 
 numbers = [1,2,3,4,5]
 for num in numbers:
-    pr
+    print(num)
+
+#example of while loop
+count  = 0
+while 
