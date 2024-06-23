@@ -44,4 +44,8 @@ if age >= 18:
 else:
     print('You are minor')
 
-#example 
+#example of for loop
+
+numbers = [1,2,3,4,5]
+for num in numbers:
+    pr
