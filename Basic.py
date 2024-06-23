@@ -72,4 +72,48 @@ numbers1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 for num in numbers1:
     print(num)
 
+#Functions are blocks of reusable code that perform a specific task. They help in organizing code and making it more modular:
+
+#def: Keyword to define a function.
+#return: Statement to return a value from a function.
+
+# Example of a function
+def greet(name):
+    return f"Hello, {name}!"
+
+# Calling the function
+message = greet("Alice")
+print(message)  # Output: Hello, Alice!
+
+def rect_area(length, width):
+    """
+    Calculate the area of a rectangle given its length and width.
+
+    Parameters:
+    length (float or int): Length of the rectangle.
+    width (float or int): Width of the rectangle.
+
+    Returns:
+    float or int: Area of the rectangle, calculated as length * width.
+    """
+    area = length * width
+    return area
+
+#Modify the function to return both the area and perimeter of the rectangle.
+
+def rect_area(length, width):
+    """
+    Calculate the area of a rectangle given its length and width.
+
+    Parameters:
+    length (float or int): Length of the rectangle.
+    width (float or int): Width of the rectangle.
+
+    Returns:
+    float or int: Area of the rectangle, calculated as length * width.
+    """
+    area = length * width
+    perimeter = 2*(length+width)
+    return area, perimeter
+
 
