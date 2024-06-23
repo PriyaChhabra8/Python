@@ -61,5 +61,16 @@ Union: Combines elements from two sets.
 Intersection: Finds common elements between two sets.
 Difference: Finds elements present in one set but not in another.
 
-a = {1,2,3,4,5}
-b = {}
+# Example of sets
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+# Set operations
+print(a.union(b))       # Output: {1, 2, 3, 4, 5, 6}
+print(a.intersection(b))  # Output: {3, 4}
+print(a.difference(b))  # Output: {1, 2}
+
+#Create two sets of numbers and perform union, intersection, and difference operations.
+
+c = {2,4,6,8}
+d= {1,3,5,7}
