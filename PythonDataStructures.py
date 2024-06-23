@@ -74,3 +74,17 @@ print(a.difference(b))  # Output: {1, 2}
 
 c = {2,4,6,8}
 d= {1,3,5,7}
+print(c.union(d))
+print(c.intersection(d))
+print(c.difference(d))
+
+#Convert a list to a set and print unique elements.
+num = [1,2,3,4,5,6,7,8,9,10,11,18]
+setss = set(num)
+print(setss)
+
+Tips:
+
+Use set methods like add(), remove(), and discard() to modify sets.
+Sets are useful for removing duplicates from a list or checking membership efficiently.
+
