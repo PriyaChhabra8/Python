@@ -22,3 +22,8 @@ print(movies[-1])
 
 #Use slicing to print the second and third elements of the list.
 print(movies[2:4])
+
+Tips:
+
+Lists can be nested (a list inside another list).
+Use list methods like append(), insert(), remove(), and pop() to modify lists.
