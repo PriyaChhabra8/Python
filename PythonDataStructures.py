@@ -27,3 +27,39 @@ Tips:
 
 Lists can be nested (a list inside another list).
 Use list methods like append(), insert(), remove(), and pop() to modify lists.
+
+Topic 5: Tuples and Dictionaries
+Explanation:
+
+Tuples: Immutable sequences, similar to lists but cannot be changed after creation.
+Dictionaries: Unordered collections of key-value pairs. Keys must be unique within a dictionary.
+
+#tuples
+lock = (1,8,9,10)
+
+#dictonary 
+emp = {'name':'pRIYA', age : 27, 'Number': 888888888, postcode: 110001}
+
+#Create a tuple representing the dimensions of a box (length, width, height) and print its elements.
+box = (1,2,3)
+print(box)
+
+#Create a dictionary for a person with name, age, and city, and print their age.
+person = {'name': 'alice', 'age': 18, 'city':'nyc'}
+print(person['age'])
+
+Tips:
+
+Tuples are faster than lists and can be used as keys in dictionaries.
+Dictionaries are versatile and efficient for data retrieval based on keys.
+
+Topic 6: Sets and Set Operations
+Explanation:
+Sets are unordered collections of unique elements. They support mathematical set operations:
+
+Union: Combines elements from two sets.
+Intersection: Finds common elements between two sets.
+Difference: Finds elements present in one set but not in another.
+
+a = {1,2,3,4,5}
+b = {}
