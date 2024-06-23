@@ -52,4 +52,16 @@ for num in numbers:
 
 #example of while loop
 count  = 0
-while 
+while count < 5:
+    print(count)
+    count +=1
+
+
+#Write a program that checks if a number is even or odd using if-else.
+
+num = int(input('Enter an integer number: '))
+
+if num % 2 == 0:
+    print('Number is even.')
+else:
+    print('Number is odd.')
